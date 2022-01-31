@@ -1,0 +1,80 @@
+*{
+    margin: 0; padding: 0;
+}
+header{
+    background: black;
+}
+span{
+    color: red;
+}
+hr{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.nav-icon{
+list-style: none;
+}
+.nav-icon li a{
+font-size: 18px;
+color: white;
+text-align: right;
+text-decoration: none;
+font-weight: bold;
+margin-top: 10px;
+margin-left: -65px;
+line-height: 3.5;   
+}
+.nav-icon li a:hover{
+color: blue;
+}
+.ion{
+    list-style: none;
+    font-size: 25px;
+    margin-left: -70px;
+
+}
+.ion li{
+    float: left;
+}
+.ion li i{
+
+}
+.main{
+    margin-top: 30%;
+    color: white;
+}
+
+
+
+.scrool{
+display: flex;
+    font-size: 25px;
+   margin-top: 10%;
+   margin-left: 50%;
+   
+}
+.social{
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 20px;
+    border-radius: 25px;
+    padding: 10px 35px;
+    color: white;
+    font-size: 30px;
+    background-color: mediumblue;
+    border: solid 2px blue;
+}
+.btn:hover{
+  background: black;
+border-radius: 20px 5px;  
+  color: blue;
+    
+}
+.about{
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+}
